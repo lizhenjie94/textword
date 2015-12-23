@@ -15,7 +15,6 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     usedatabase.cpp \
-    words.cpp \
     anwser.cpp \
     askfornum.cpp \
     delete.cpp \
@@ -28,7 +27,6 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h \
     usedatabase.h \
-    words.h \
     anwser.h \
     askfornum.h \
     delete.h \
@@ -40,7 +38,6 @@ HEADERS  += mainwindow.h \
     text.h
 
 FORMS    += mainwindow.ui \
-    words.ui \
     anwser.ui \
     askfornum.ui \
     delete.ui \

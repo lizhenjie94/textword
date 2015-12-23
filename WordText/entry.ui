@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Addword</class>
- <widget class="QDialog" name="Addword">
+ <class>Entry</class>
+ <widget class="QDialog" name="Entry">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>359</width>
-    <height>231</height>
+    <width>272</width>
+    <height>190</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,114 +16,124 @@
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>50</y>
+     <x>30</x>
+     <y>40</y>
      <width>31</width>
-     <height>21</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Adobe 仿宋 Std R</family>
-     <pointsize>11</pointsize>
+     <family>宋体</family>
+     <pointsize>9</pointsize>
     </font>
    </property>
    <property name="text">
     <string>单词</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>50</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_2">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>90</y>
+     <x>30</x>
+     <y>70</y>
      <width>31</width>
-     <height>16</height>
+     <height>20</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Adobe 仿宋 Std R</family>
-     <pointsize>11</pointsize>
+     <family>宋体</family>
+     <pointsize>9</pointsize>
     </font>
    </property>
    <property name="text">
     <string>词性</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_2">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>90</y>
-     <width>113</width>
-     <height>20</height>
-    </rect>
-   </property>
-  </widget>
   <widget class="QLabel" name="label_3">
    <property name="geometry">
     <rect>
-     <x>40</x>
-     <y>130</y>
+     <x>30</x>
+     <y>100</y>
      <width>31</width>
      <height>21</height>
     </rect>
    </property>
    <property name="font">
     <font>
-     <family>Adobe 仿宋 Std R</family>
-     <pointsize>11</pointsize>
+     <family>宋体</family>
+     <pointsize>9</pointsize>
     </font>
    </property>
    <property name="text">
     <string>解释</string>
    </property>
   </widget>
-  <widget class="QLineEdit" name="lineEdit_3">
+  <widget class="QPushButton" name="btnEntry">
    <property name="geometry">
     <rect>
-     <x>90</x>
-     <y>130</y>
-     <width>113</width>
+     <x>50</x>
+     <y>140</y>
+     <width>75</width>
      <height>20</height>
     </rect>
    </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>170</x>
-     <y>180</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
    </property>
    <property name="text">
     <string>录入</string>
    </property>
   </widget>
-  <widget class="QPushButton" name="pushButton_2">
+  <widget class="QPushButton" name="btnCancel">
    <property name="geometry">
     <rect>
-     <x>260</x>
-     <y>180</y>
+     <x>150</x>
+     <y>140</y>
      <width>75</width>
-     <height>23</height>
+     <height>20</height>
     </rect>
    </property>
+   <property name="font">
+    <font>
+     <pointsize>9</pointsize>
+    </font>
+   </property>
    <property name="text">
-    <string>退出</string>
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>40</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>70</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>100</y>
+     <width>151</width>
+     <height>20</height>
+    </rect>
    </property>
   </widget>
  </widget>

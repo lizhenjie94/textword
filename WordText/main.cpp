@@ -3,14 +3,16 @@
 #include <usedatabase.h>
 #include <QSqlDatabase>
 #include <QDebug>
-#include "words.h"
+// #include "words.h"
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
     QSqlDatabase::addDatabase("QSQLITE");
-    words w;
-    w.show();
+
+    MainWindow *w = new MainWindow;
+    w->setAttribute(Qt::WA_DeleteOnClose);
+    w->show();
     //UseDatabase Word("old");
 
     return a.exec();

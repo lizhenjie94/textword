@@ -6,6 +6,7 @@ Delete::Delete(QWidget *parent) :
     ui(new Ui::Delete)
 {
     ui->setupUi(this);
+    /*
     buttonBox->button(QDialogButtonBox::Ok)->setEnabled(false);
 
     QRegExp regExp("[A-Za-z]{1,10}");
@@ -13,11 +14,14 @@ Delete::Delete(QWidget *parent) :
 
     connect(buttonBox,SIGNAL(accepted()),this,SLOT(accept()));
     connect(buttonBox,SIGNAL(rejected()),this,SLOT(reject()));
+    */
+
+    connect(ui->btnCancel, SIGNAL(clicked(bool)), this, SLOT(close()));
 }
 
 void Delete::on_LineEdit_textChanged()
 {
-    buttonBox->button(QDialogButtonBox::Ok)->setEnabled(LineEdit->hasAcceptableInput());
+    // buttonBox->button(QDialogButtonBox::Ok)->setEnabled(LineEdit->hasAcceptableInput());
 }
 
 Delete::~Delete()

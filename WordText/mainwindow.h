@@ -17,6 +17,10 @@ public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
 
+public slots:
+    void openAskfornum();
+    void openSolve();
+
 private:
     Ui::MainWindow *ui;
     void Addword();

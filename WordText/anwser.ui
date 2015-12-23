@@ -6,34 +6,40 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>378</width>
-    <height>199</height>
+    <width>402</width>
+    <height>309</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QTextBrowser" name="textBrowser">
+  <widget class="QPushButton" name="btnOK">
    <property name="geometry">
     <rect>
-     <x>50</x>
-     <y>20</y>
-     <width>256</width>
-     <height>121</height>
+     <x>300</x>
+     <y>250</y>
+     <width>75</width>
+     <height>20</height>
     </rect>
    </property>
-  </widget>
-  <widget class="QPushButton" name="pushButton">
-   <property name="geometry">
-    <rect>
-     <x>270</x>
-     <y>160</y>
-     <width>75</width>
-     <height>23</height>
-    </rect>
+   <property name="font">
+    <font>
+     <family>宋体</family>
+     <pointsize>9</pointsize>
+    </font>
    </property>
    <property name="text">
-    <string>ok</string>
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tableView">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>341</width>
+     <height>221</height>
+    </rect>
    </property>
   </widget>
  </widget>

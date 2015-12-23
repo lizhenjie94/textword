@@ -6,6 +6,8 @@ RenewProperty::RenewProperty(QWidget *parent) :
     ui(new Ui::RenewProperty)
 {
     ui->setupUi(this);
+
+    connect(ui->btnCancel, SIGNAL(clicked(bool)), this, SLOT(close()));
 }
 
 RenewProperty::~RenewProperty()

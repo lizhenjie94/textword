@@ -6,6 +6,7 @@ Entry::Entry(QWidget *parent) :
     ui(new Ui::Entry)
 {
     ui->setupUi(this);
+    connect(ui->btnCancel, SIGNAL(clicked()), this, SLOT(close()));
 }
 
 Entry::~Entry()

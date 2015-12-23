@@ -15,6 +15,10 @@ public:
     explicit text(QWidget *parent = 0);
     ~text();
 
+public slots:
+    void openMain();
+    void openScore();
+
 private:
     Ui::text *ui;
 };

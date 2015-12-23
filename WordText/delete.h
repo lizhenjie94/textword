@@ -3,6 +3,8 @@
 
 #include <QDialog>
 
+#include "solve.h"
+
 namespace Ui {
 class Delete;
 }

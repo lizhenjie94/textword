@@ -15,6 +15,13 @@ public:
     explicit solve(QWidget *parent = 0);
     ~solve();
 
+public slots:
+    void openDelete();
+    void openEntry();
+    void openRenew();
+    void openQuery();
+    void openMain();
+
 private:
     Ui::solve *ui;
 };

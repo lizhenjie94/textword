@@ -15,6 +15,10 @@ public:
     explicit askfornum(QWidget *parent = 0);
     ~askfornum();
 
+public slots:
+    void openText();
+    void openMain();
+
 private:
     Ui::askfornum *ui;
 

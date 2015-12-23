@@ -15,6 +15,9 @@ public:
     explicit Renew(QWidget *parent = 0);
     ~Renew();
 
+public slots:
+    void openRenewproperty();
+
 private:
     Ui::Renew *ui;
 
